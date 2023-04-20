@@ -1,0 +1,39 @@
+body{
+background-image: url('src/assets/reg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.form{ 
+    width: 50%;
+    margin: auto;
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.675);
+    padding: 19px;
+    font-size: 15px;
+  }
+
+  .log{
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    padding: 5px;
+  }
+
+  .login-btn{
+    padding: 5px;
+    border: solid white 2px;
+    border-radius: 10px;
+    color: white;
+    font-size: 15px;
+    background-color: rgba(0, 0, 0, 0.481);
+    width: 30%;
+    margin-left: 35%;
+  }
+  
+ .login-btn:hover{
+    background-color: rgba(255, 255, 255, 0.541);
+  }

@@ -1,0 +1,31 @@
+<body>
+    <br>
+    <div class="form">
+        <h2>Register Yourself:</h2>
+        <label for="usrnm">Name</label>
+        <input type="text" class="log" id="usrnm" name="usrnm" required>
+        <label for="phn">Phone No.</label>
+        <input type="tel" class="log" id="phn" name="phn" required>
+        <label for="email">Email</label>
+        <input type="email" class="log" id="email" name="email" required>
+        <label for="gen">Gender(M/F/O)</label>
+        <input type="text" class="log" id="gen" name="gen" maxlength="1" required>
+        <label for="cat">Category(GEN/OBC/SC/ST)</label>
+        <input type="text" class="log" id="cat" name="cat" maxlength="3" [(ngModel)]="category" required>
+        <label for="dis">Disability(Y/N)</label>
+        <input type="text" class="log" id="dis" name="dis" maxlength="1" required>
+        <label for="state">State</label>
+        <input type="text" class="log" id="state" name="state" required>
+        <label for="roll">Roll No.</label>
+        <input type="text" class="log" id="roll" name="roll" required>
+        <label for="m1">Marks 1st Exam(200)</label>
+        <input type="number" class="log" id="m1" name="m1" required>
+        <label for="m1">Marks 2nd Exam(300)</label>
+        <input type="number" class="log" id="m2" name="m2" required>
+        <label for="m">Total Marks</label>
+        <input type="number" class="log" id="m1" name="m1" [(ngModel)]="total" required>
+        <label for="c">Course</label>
+        <input type="text" class="log" id="c" name="c" value="Public Administration" disabled><br><br>
+        <button class="login-btn" (click)="check()">Register</button>
+    </div>
+</body>

@@ -1,0 +1,20 @@
+<body>
+  <div class="header">
+      Sardar Patel Institute of Public Administration
+  </div>
+  <div class="login">
+      <h2>LOGIN</h2>
+      <div class="form1">
+          <label for="usrnm">Username</label>
+          <input type="text" class="log" id="usrnm" name="usrnm" [(ngModel)]="username" required>
+      </div>
+      <br><br>
+      <div class="form1">
+          <label for="pwd">Password</label>
+          <input type="password" class="log" id="pwd" name="pwd" minlength="8" [(ngModel)]="password"  required>
+      </div>
+      <br><br>
+      <button class="login-btn" (click)="login()">LogIn</button>
+  </div>
+  <br><br><br><br><br><br><br>
+</body>

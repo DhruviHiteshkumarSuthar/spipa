@@ -1,0 +1,35 @@
+body{
+    background-image: url('src/assets/home2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.head1{
+    background-color: rgba(0, 0, 0, 0.412);
+    border: none;
+    border-radius: 10px;
+    margin: auto;
+    width: 80%;
+    padding: 10px;
+    color: white;
+    font-size: 20px;
+}
+
+.btn{
+    margin-left: 91%;
+}
+
+.btn .course-btn{
+    padding: 11px;
+    border: none;
+    background-color: white;
+    color:black;
+    font-size: 20px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.btn .course-btn:hover{
+    background-color: rgba(133, 133, 133, 0.586);
+}
