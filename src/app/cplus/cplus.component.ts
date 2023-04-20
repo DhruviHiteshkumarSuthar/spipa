@@ -9,7 +9,7 @@ import { Router } from '@angular/router';
 export class CplusComponent {
 
   category :string= '';
-  total :number=0;
+  total :number= 0;
 
   constructor (private router: Router){}
 
