@@ -6,6 +6,7 @@ import { CourseComponent } from './course/course.component';
 import { CplusComponent } from './cplus/cplus.component';
 import { PublicComponent } from './public/public.component';
 import { LeaderComponent } from './leader/leader.component';
+import { ConfirmComponent } from './confirm/confirm.component';
 
 const routes: Routes = [
   { path: '', redirectTo: '/login', pathMatch: 'full' },
@@ -14,7 +15,8 @@ const routes: Routes = [
   {path: 'course', component: CourseComponent},
   {path: 'cplus', component: CplusComponent},
   {path: 'public', component: PublicComponent},
-  {path: 'leader', component: LeaderComponent}
+  {path: 'leader', component: LeaderComponent},
+  {path: 'confirm', component: ConfirmComponent}
 ];
 
 @NgModule({

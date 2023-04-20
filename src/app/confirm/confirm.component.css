@@ -1,0 +1,53 @@
+body{
+    background-color: rgb(29, 29, 29);
+}
+
+.header{
+    background-image: url('src/assets/course.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 25px;
+    border-bottom: solid white 3px;
+}
+
+h1{
+    text-align: center;
+    color: white;
+}
+
+.btn{
+    margin-left: 85%;
+}
+
+.btn .course-btn{
+    padding: 11px;
+    border: none;
+    background-color: white;
+    color:black;
+    font-size: 20px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.btn .course-btn:hover{
+    background-color: rgba(133, 133, 133, 0.586);
+}
+
+.image{
+    margin-top: 10%;
+    margin-left: 10%;
+    display: inline-block;
+    width: 20%;
+}
+
+.image img{
+    margin-left: 35%;
+}
+
+.txt{
+    display: inline-block;
+    width: 50%;
+    font-size: 30px;
+    color: white;
+}

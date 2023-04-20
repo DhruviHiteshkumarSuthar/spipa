@@ -9,6 +9,7 @@ import { CourseComponent } from './course/course.component';
 import { CplusComponent } from './cplus/cplus.component';
 import { PublicComponent } from './public/public.component';
 import { LeaderComponent } from './leader/leader.component';
+import { ConfirmComponent } from './confirm/confirm.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { LeaderComponent } from './leader/leader.component';
     CourseComponent,
     CplusComponent,
     PublicComponent,
-    LeaderComponent
+    LeaderComponent,
+    ConfirmComponent
   ],
   imports: [
     BrowserModule,

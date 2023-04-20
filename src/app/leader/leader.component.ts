@@ -20,10 +20,12 @@ export class LeaderComponent {
       if(this.total>=110)
       {
         alert('Congratulations! You are eligible for course.');
+        this.router.navigate(['/confirm']);
       }
       else
       {
         alert('Sorry! You are not eligible.');
+        this.router.navigate(['/course']);
       }
     }
     else if(this.category=='SC' || this.category=='ST')
@@ -31,10 +33,12 @@ export class LeaderComponent {
       if(this.total>=90)
       {
         alert('Congratulations! You are eligible for course.');
+        this.router.navigate(['/confirm']);
       }
       else
       {
         alert('Sorry! You are not eligible.');
+        this.router.navigate(['/course']);
       }
     }
   }
