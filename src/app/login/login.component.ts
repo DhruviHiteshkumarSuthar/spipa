@@ -15,7 +15,6 @@ export class LoginComponent {
 
   login(){
     const letter=/^[A-Z][a-z]+$/;
-    const pwd=/^[A-Za-z]+([.#@%]?\w+)$/;
     const pwd2=/^[A-Za-z]+[0-9]+$/;
     if(letter.test(this.username) && pwd2.test(this.password))
     {
