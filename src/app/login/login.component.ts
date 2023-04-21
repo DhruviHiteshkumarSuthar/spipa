@@ -16,7 +16,8 @@ export class LoginComponent {
   login(){
     const letter=/^[A-Z][a-z]+$/;
     const pwd=/^[A-Za-z]+([.#@%]?\w+)$/;
-    if(letter.test(this.username) && pwd.test(this.password))
+    const pwd2=/^[A-Za-z]+[0-9]+$/;
+    if(letter.test(this.username) && pwd2.test(this.password))
     {
             alert('Login Successful');
             this.router.navigate(['/home']);
